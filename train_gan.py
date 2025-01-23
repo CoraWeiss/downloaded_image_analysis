@@ -1,3 +1,7 @@
+import os
+print("Current directory:", os.getcwd())
+print("Contents:", os.listdir())
+
 import torch
 import torch.nn as nn
 import torchvision.transforms as transforms
